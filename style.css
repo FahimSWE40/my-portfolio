@@ -1,0 +1,112 @@
+body {
+  background-color: #121212;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1f1f1f;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  margin-left: 15px;
+  color: #0ff3a8;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero h1 {
+  font-size: 28px;
+}
+
+.hero p {
+  color: #0ff3a8;
+  font-size: 18px;
+}
+
+.image-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.image-section img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid #0ff3a8;
+  object-fit: cover;
+}
+
+.about, .projects, .contact {
+  padding: 30px 20px;
+}
+
+.about p {
+  max-width: 800px;
+  margin: auto;
+}
+
+.projects div {
+  background-color: #1e1e1e;
+  margin: 15px 0;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.projects h3 {
+  color: #0ff3a8;
+}
+
+.projects a {
+  color: #0ff3a8;
+  text-decoration: none;
+}
+
+.contact form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.contact input, .contact textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.contact button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #0ff3a8;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #1f1f1f;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #0ff3a8;
+  margin: 0 5px;
+  text-decoration: none;
+}
